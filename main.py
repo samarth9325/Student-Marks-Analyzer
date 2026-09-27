@@ -10,3 +10,9 @@ percentage = total / 3
 print("Student:", name)
 print("Total Marks:", total)
 print("Percentage:", percentage)
+if percentage >= 40:
+    result = "Pass"
+else:
+    result = "Fail"
+
+print("Result:", result)
